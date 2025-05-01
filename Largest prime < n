@@ -1,0 +1,8 @@
+n = int(input())
+if n > 2:
+    if n > 3:
+        print("Largest prime < n is", n-1 if (n-1 in [2,3,5,7]) else "check using loop")
+    else:
+        print("2 is the only smallest prime")
+else:
+    print("No prime < n")

@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+small = min(a, b, c)
+if a % small == 0 and b % small == 0 and c % small == 0:
+    print("GCD:", small)
+else:
+    print("Check using loop/method")

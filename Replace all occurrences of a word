@@ -1,0 +1,2 @@
+text = "the cat sat on the cat"
+print(text.replace("cat", "dog"))

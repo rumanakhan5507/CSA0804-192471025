@@ -1,0 +1,2 @@
+string="Hello world from Python"
+print(len(string.split()))

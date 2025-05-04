@@ -1,0 +1,2 @@
+string= "hello@example.com"
+print("@"in string and "." in string)

@@ -1,0 +1,3 @@
+text = "hello"
+result = next((char for i, char in enumerate(text) if char in text[:i]), None)
+print("First repeating character is:", result)

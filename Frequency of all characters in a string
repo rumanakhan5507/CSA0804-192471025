@@ -1,0 +1,4 @@
+string="banana"
+print("a:",string.count("a"))
+print("b:",string.count("b"))
+print("n:",string.count("n"))

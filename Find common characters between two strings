@@ -1,0 +1,4 @@
+a = "apple"
+b = "grape"
+print("p" in a and "p" in b)  # True
+print("a" in a and "a" in b)  # True

@@ -1,0 +1,3 @@
+text = "madamracecar"
+if "racecar" in text and "racecar" == "racecar"[::-1]:
+    print("Largest palindrome: racecar")

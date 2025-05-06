@@ -1,0 +1,13 @@
+text = input("Enter a string: ")
+
+contains_digit = False
+
+for char in text:
+    if char.isdigit():
+        contains_digit = True
+        break
+
+if contains_digit:
+    print("The string contains digits.")
+else:
+    print("The string does not contain digits.")

@@ -1,0 +1,3 @@
+d = {'a': 1, 'b': 2}
+result = list(d.items())
+print(result)

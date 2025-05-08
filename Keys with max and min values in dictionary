@@ -1,0 +1,3 @@
+d = {'a': 5, 'b': 1, 'c': 3}
+print("Max key:", max(d, key=d.get))
+print("Min key:", min(d, key=d.get))
